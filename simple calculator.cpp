@@ -1,23 +1,29 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
+    int A, B, C;
 
-    int X, Y;
-
-
-    cin >> X;
-
-    cin >> Y;
+    cin >> A >> B >> C;
 
 
-    cout << X << " + " << Y << " = " << X + Y << endl;
+    int min = A;
+    if (B < min) {
+        min = B;
+    }
+    if (C < min) {
+        min = C;
+    }
 
 
-    cout << X << " * " << Y << " = " << X * Y << endl;
+    int max = A;
+    if (B > max) {
+        max = B;
+    }
+    if (C > max) {
+        max = C;
+    }
 
-    cout << X << " - " << Y << " = " << X - Y << endl;
+    cout<< min<<" " << max<<endl;
 
     return 0;
 }
