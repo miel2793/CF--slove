@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int N,M,nl,ml,sum;
+    long long N,M,nl,ml,sum;
     cin>>N>>M;
     nl=N%10;
     ml=M%10;
