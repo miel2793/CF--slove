@@ -3,12 +3,10 @@ using namespace std;
 
 int main()
 {
-    int N,sum=0;
+    long long int N,S=0;
     cin>>N;
-    for(int i=1;i<=N;i++)
-    {
-      sum=sum+ i;
-    }
-    cout<<sum <<endl;
+    
+     S+=(N*(N+1))/2;
+    cout<<S <<endl;
     return 0;
 }
