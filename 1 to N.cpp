@@ -7,7 +7,7 @@ int main()
     cin>>N;
     for(i=1;i<=N;i++)
     {
-        cout<<i<<endl
+        cout<<i<<endl;
     }
     return 0;
 }
