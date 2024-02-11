@@ -1,37 +1,29 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main()
 {
 
-    long long A,B,C,D;
+    long long A,B,C,D,one,two;
 
     cin>>A>>B>>C>>D;
-
-    if((A^B)>(C^D))
+    one=B*log(A);
+    two=D*log(C);
+    if(one>two)
     {
+        cout<<"YES\n";
 
-        cout<<"YES"<<endl;
     }
-    else if((C^D)>(A^B))
+    else if(one<two)
     {
-        cout<<"NO"<<endl;
+        cout<<"NO\n";
     }
-
-   else if((A^B)<(C^D) )
-    {
-
-        cout<<"YES"<<endl;
-    }
-    else if((C^D)<(A^D))
-    {
-         cout<<"NO"<<endl;
-    }
-
-
-
     else
     {
-        cout<<("NO")<<endl;
+         cout<<"NO\n";
     }
 
+
+
+    
 }
