@@ -8,5 +8,5 @@ int main()
     
      S+=(N*(N+1))/2;
     cout<<S <<endl;
-    return 0;
+   // return 0;
 }
