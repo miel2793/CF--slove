@@ -23,5 +23,5 @@ else  if(c==b||b==c)
  }
     }
    
-    
+  return 0;  
 }
