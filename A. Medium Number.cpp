@@ -20,7 +20,7 @@ int main()
         }
         else
          {
-            cout<<c<<endl;
+            //cout<<c<<endl;
         }
 
 
