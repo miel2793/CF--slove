@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 int a=5;
-int n;
+int  n;
 cin>>n;
-long long result=pow(a,n);
-cout<<result<<endl;
+double   result=pow(a,n);
+cout<<result <<endl;
 }
